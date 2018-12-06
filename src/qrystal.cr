@@ -35,6 +35,3 @@ class Qrystal
     @q
   end
 end
-
-q = Qrystal.new
-puts q.select("users").where({nama: "robi"}).string
