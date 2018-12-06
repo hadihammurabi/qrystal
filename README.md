@@ -1,6 +1,6 @@
 # qrystal
 
-TODO: Write a description here
+This is a query (SQL) builder for [Crystal Language](https://crystal-lang.org)
 
 ## Installation
 
@@ -8,7 +8,7 @@ TODO: Write a description here
 ```yaml
 dependencies:
   qrystal:
-    github: your-github-user/qrystal
+    github: hadihammurabi/qrystal
 ```
 2. Run `shards install`
 
@@ -26,7 +26,7 @@ TODO: Write development instructions here
 
 ## Contributing
 
-1. Fork it (<https://github.com/your-github-user/qrystal/fork>)
+1. Fork it (<https://github.com/hadihammurabi/qrystal/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
@@ -34,4 +34,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [Hadi Hidayat Hammurabi](https://github.com/your-github-user) - creator and maintainer
+- [Hadi Hidayat Hammurabi](https://github.com/hadihammurabi) - creator and maintainer
