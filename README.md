@@ -16,6 +16,17 @@ dependencies:
 
 ```crystal
 require "qrystal"
+
+# create object of Qrystal class
+query = Qrystal.new
+
+# call select() method
+# with table name as parameter
+# e. g. users
+alluser = query.select("users")
+
+# get as string
+alluser = alluser.string
 ```
 
 TODO: Write usage instructions here
