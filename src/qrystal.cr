@@ -1,11 +1,14 @@
+# This is Qrystal class to build SQL
 class Qrystal
   @q = ""
 
+  # SELECT query
   def select(table)
     @q = "SELECT * FROM #{table}"
     self
   end
 
+  # WHERE statement
   def where(condition)
     cond = ""
     condition.each_with_index do |key, val, index|
@@ -27,10 +30,11 @@ class Qrystal
     self
   end
 
+  # return query as string
   def string
     @q
   end
 end
 
 q = Qrystal.new
-puts q.select("users").where({ nama: "robi", kelas: 2 }).string()
+puts q.select("users").where({nama: "robi"}).string
