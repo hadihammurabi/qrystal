@@ -1,0 +1,9 @@
+name: qrystal
+version: 0.1.0
+
+authors:
+  - Hadi Hidayat Hammurabi <didikipb007@gmail.com>
+
+crystal: 0.27.0
+
+license: MIT
